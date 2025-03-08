@@ -68,7 +68,7 @@ class Home extends BaseController
           // Load the header, dashboard, and footer views with data
         return view('theme/header',$data).view('theme/dashboard-add-listing', $data).view('theme/footer', $data);
     }
-    public function add_listing()    {
+    public function business_list()    {
         // Data to pass to the views
         $data = [
             'title' => 'Dashboard Add Listing :: Business Directory',           
@@ -88,4 +88,5 @@ class Home extends BaseController
           // Load the header, dashboard, and footer views with data
         return view('theme/header',$data).view('theme/business-list', $data).view('theme/footer', $data);
     }
+    
 }

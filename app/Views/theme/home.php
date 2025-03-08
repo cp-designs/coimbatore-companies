@@ -1,6 +1,6 @@
 
 		<!-- ======================= Home Banner ======================== -->
-		<div class="home-banner margin-bottom-0" style="background:#f41b3b url(<?php echo base_url('assets/theme/theme/img/banner-2.jpg'); ?>) no-repeat;"
+		<div class="home-banner margin-bottom-0" style="background:#f41b3b url(<?php echo base_url('assets/theme/img/banner-2.jpg'); ?>) no-repeat;"
 			data-overlay="5">
 			<div class="container">
 				<div class="row justify-content-center">

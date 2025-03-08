@@ -11,14 +11,14 @@
 									<div class="btn-group">
 										<button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Restaurants</button>
 										<ul class="dropdown-menu">
-											<li><a class="dropdown-item" href="#" ><img src="assets/img/icons/fast-delivery.png" class="img-fluid" width="20" alt="" />Delivery</a></li>
-											<li><a class="dropdown-item" href="#" ><img src="assets/img/icons/burger.png" class="img-fluid" width="20" alt="" />Burgers</a></li>
-											<li><a class="dropdown-item" href="#" ><img src="assets/img/icons/booking.png" class="img-fluid" width="20" alt="" />Reservations</a></li>
-											<li><a class="dropdown-item" href="#" ><img src="assets/img/icons/house.png" class="img-fluid" width="20" alt="" />Japanese</a></li>
-											<li><a class="dropdown-item" href="#" ><img src="assets/img/icons/chinese-food.png" class="img-fluid" width="20" alt="" />Chinese</a></li>
-											<li><a class="dropdown-item" href="#" ><img src="assets/img/icons/mexican-hat.png" class="img-fluid" width="20" alt="" />Mekician</a></li>
-											<li><a class="dropdown-item" href="#" ><img src="assets/img/icons/dish.png" class="img-fluid" width="20" alt="" />Italian</a></li>
-											<li><a class="dropdown-item" href="#" ><img src="assets/img/icons/tom-yum.png" class="img-fluid" width="20" alt="" />Thai</a></li>
+											<li><a class="dropdown-item" href="#" ><img src="<?php echo base_url('assets/theme/img/icons/fast-delivery.png'); ?>" class="img-fluid" width="20" alt="" />Delivery</a></li>
+											<li><a class="dropdown-item" href="#" ><img src="<?php echo base_url('assets/theme/img/icons/burger.png'); ?>" class="img-fluid" width="20" alt="" />Burgers</a></li>
+											<li><a class="dropdown-item" href="#" ><img src="<?php echo base_url('assets/theme/img/icons/booking.png'); ?>" class="img-fluid" width="20" alt="" />Reservations</a></li>
+											<li><a class="dropdown-item" href="#" ><img src="<?php echo base_url('assets/theme/img/icons/house.png'); ?>" class="img-fluid" width="20" alt="" />Japanese</a></li>
+											<li><a class="dropdown-item" href="#" ><img src="<?php echo base_url('assets/theme/img/icons/chinese-food.png'); ?>" class="img-fluid" width="20" alt="" />Chinese</a></li>
+											<li><a class="dropdown-item" href="#" ><img src="<?php echo base_url('assets/theme/img/icons/mexican-hat.png'); ?>" class="img-fluid" width="20" alt="" />Mekician</a></li>
+											<li><a class="dropdown-item" href="#" ><img src="<?php echo base_url('assets/theme/img/icons/dish.png'); ?>" class="img-fluid" width="20" alt="" />Italian</a></li>
+											<li><a class="dropdown-item" href="#" ><img src="<?php echo base_url('assets/theme/img/icons/tom-yum.png'); ?>" class="img-fluid" width="20" alt="" />Thai</a></li>
 										</ul>
 									</div>
 								</div>
@@ -27,14 +27,14 @@
 									<div class="btn-group">
 										<button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Home Services</button>
 										<ul class="dropdown-menu">
-											<li><a class="dropdown-item" href="#"><img src="assets/img/icons/hammer.png" class="img-fluid" width="20" alt="" />Contractors</a></li>
-											<li><a class="dropdown-item" href="#"><img src="assets/img/icons/coconut-tree.png" class="img-fluid" width="20" alt="" />Landscaping</a></li>
-											<li><a class="dropdown-item" href="#"><img src="assets/img/icons/broken-cable.png" class="img-fluid" width="20" alt="" />Electricians</a></li>
-											<li><a class="dropdown-item" href="#"><img src="assets/img/icons/padlock.png" class="img-fluid" width="20" alt="" />Locksmiths</a></li>
-											<li><a class="dropdown-item" href="#"><img src="assets/img/icons/basket.png" class="img-fluid" width="20" alt="" />Home Cleaning</a></li>
-											<li><a class="dropdown-item" href="#"><img src="assets/img/icons/delivery-truck.png" class="img-fluid" width="20" alt="" />Movers</a></li>
-											<li><a class="dropdown-item" href="#"><img src="assets/img/icons/home.png" class="img-fluid" width="20" alt="" />HVAC</a></li>
-											<li><a class="dropdown-item" href="#"><img src="assets/img/icons/plumbering.png" class="img-fluid" width="20" alt="" />Plumbers</a></li>
+											<li><a class="dropdown-item" href="#"><img src="assets/theme/img/icons/hammer.png" class="img-fluid" width="20" alt="" />Contractors</a></li>
+											<li><a class="dropdown-item" href="#"><img src="assets/theme/img/icons/coconut-tree.png" class="img-fluid" width="20" alt="" />Landscaping</a></li>
+											<li><a class="dropdown-item" href="#"><img src="assets/theme/img/icons/broken-cable.png" class="img-fluid" width="20" alt="" />Electricians</a></li>
+											<li><a class="dropdown-item" href="#"><img src="assets/theme/img/icons/padlock.png" class="img-fluid" width="20" alt="" />Locksmiths</a></li>
+											<li><a class="dropdown-item" href="#"><img src="assets/theme/img/icons/basket.png" class="img-fluid" width="20" alt="" />Home Cleaning</a></li>
+											<li><a class="dropdown-item" href="#"><img src="assets/theme/img/icons/delivery-truck.png" class="img-fluid" width="20" alt="" />Movers</a></li>
+											<li><a class="dropdown-item" href="#"><img src="assets/theme/img/icons/home.png" class="img-fluid" width="20" alt="" />HVAC</a></li>
+											<li><a class="dropdown-item" href="#"><img src="assets/theme/img/icons/plumbering.png" class="img-fluid" width="20" alt="" />Plumbers</a></li>
 										</ul>
 									</div>
 								</div>
@@ -43,14 +43,14 @@
 									<div class="btn-group">
 										<button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Auto Services</button>
 										<ul class="dropdown-menu">
-											<li><a class="dropdown-item" href="#"><img src="assets/img/icons/wrench.png" class="img-fluid" width="20" alt="" />Auto Repairs</a></li>
-											<li><a class="dropdown-item" href="#"><img src="assets/img/icons/rental-car.png" class="img-fluid" width="20" alt="" />Car Dealers</a></li>
-											<li><a class="dropdown-item" href="#"><img src="assets/img/icons/sketch.png" class="img-fluid" width="20" alt="" />Auto Detailing</a></li>
-											<li><a class="dropdown-item" href="#"><img src="assets/img/icons/oil.png" class="img-fluid" width="20" alt="" />Oil Change</a></li>
-											<li><a class="dropdown-item" href="#"><img src="assets/img/icons/shopping-bag.png" class="img-fluid" width="20" alt="" />Body Shops</a></li>
-											<li><a class="dropdown-item" href="#"><img src="assets/img/icons/parking.png" class="img-fluid" width="20" alt="" />Parking</a></li>
-											<li><a class="dropdown-item" href="#"><img src="assets/img/icons/car-wash.png" class="img-fluid" width="20" alt="" />Car Wash</a></li>
-											<li><a class="dropdown-item" href="#"><img src="assets/img/icons/tow-truck.png" class="img-fluid" width="20" alt="" />Towing</a></li>
+											<li><a class="dropdown-item" href="#"><img src="assets/theme/img/icons/wrench.png" class="img-fluid" width="20" alt="" />Auto Repairs</a></li>
+											<li><a class="dropdown-item" href="#"><img src="assets/theme/img/icons/rental-car.png" class="img-fluid" width="20" alt="" />Car Dealers</a></li>
+											<li><a class="dropdown-item" href="#"><img src="assets/theme/img/icons/sketch.png" class="img-fluid" width="20" alt="" />Auto Detailing</a></li>
+											<li><a class="dropdown-item" href="#"><img src="assets/theme/img/icons/oil.png" class="img-fluid" width="20" alt="" />Oil Change</a></li>
+											<li><a class="dropdown-item" href="#"><img src="assets/theme/img/icons/shopping-bag.png" class="img-fluid" width="20" alt="" />Body Shops</a></li>
+											<li><a class="dropdown-item" href="#"><img src="assets/theme/img/icons/parking.png" class="img-fluid" width="20" alt="" />Parking</a></li>
+											<li><a class="dropdown-item" href="#"><img src="assets/theme/img/icons/car-wash.png" class="img-fluid" width="20" alt="" />Car Wash</a></li>
+											<li><a class="dropdown-item" href="#"><img src="assets/theme/img/icons/tow-truck.png" class="img-fluid" width="20" alt="" />Towing</a></li>
 										</ul>
 									</div>
 								</div>
@@ -59,14 +59,14 @@
 									<div class="btn-group">
 										<button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">More</button>
 										<ul class="dropdown-menu">
-											<li><a class="dropdown-item" href="#"><img src="assets/img/icons/towel-hanger.png" class="img-fluid" width="20" alt="" />Dry Cleaning</a></li>
-											<li><a class="dropdown-item" href="#"><img src="assets/img/icons/salon.png" class="img-fluid" width="20" alt="" />Hair salons</a></li>
-											<li><a class="dropdown-item" href="#"><img src="assets/img/icons/smartphone.png" class="img-fluid" width="20" alt="" />Phone Repair</a></li>
-											<li><a class="dropdown-item" href="#"><img src="assets/img/icons/weights.png" class="img-fluid" width="20" alt="" />Gyms</a></li>
-											<li><a class="dropdown-item" href="#"><img src="assets/img/icons/cocktail.png" class="img-fluid" width="20" alt="" />Bars & cafe</a></li>
-											<li><a class="dropdown-item" href="#"><img src="assets/img/icons/spa.png" class="img-fluid" width="20" alt="" />Massage</a></li>
-											<li><a class="dropdown-item" href="#"><img src="assets/img/icons/poinsettia.png" class="img-fluid" width="20" alt="" />Nightlife</a></li>
-											<li><a class="dropdown-item" href="#"><img src="assets/img/icons/online-shopping.png" class="img-fluid" width="20" alt="" />Shopping</a></li>
+											<li><a class="dropdown-item" href="#"><img src="assets/theme/img/icons/towel-hanger.png" class="img-fluid" width="20" alt="" />Dry Cleaning</a></li>
+											<li><a class="dropdown-item" href="#"><img src="assets/theme/img/icons/salon.png" class="img-fluid" width="20" alt="" />Hair salons</a></li>
+											<li><a class="dropdown-item" href="#"><img src="assets/theme/img/icons/smartphone.png" class="img-fluid" width="20" alt="" />Phone Repair</a></li>
+											<li><a class="dropdown-item" href="#"><img src="assets/theme/img/icons/weights.png" class="img-fluid" width="20" alt="" />Gyms</a></li>
+											<li><a class="dropdown-item" href="#"><img src="assets/theme/img/icons/cocktail.png" class="img-fluid" width="20" alt="" />Bars & cafe</a></li>
+											<li><a class="dropdown-item" href="#"><img src="assets/theme/img/icons/spa.png" class="img-fluid" width="20" alt="" />Massage</a></li>
+											<li><a class="dropdown-item" href="#"><img src="assets/theme/img/icons/poinsettia.png" class="img-fluid" width="20" alt="" />Nightlife</a></li>
+											<li><a class="dropdown-item" href="#"><img src="assets/theme/img/icons/online-shopping.png" class="img-fluid" width="20" alt="" />Shopping</a></li>
 										</ul>
 									</div>
 								</div>
@@ -304,7 +304,7 @@
 												<div class="vrt-list-wrap-head">
 													<div class="vrt-list-thumb">
 														<div class="vrt-list-thumb-figure">
-															<img src="assets/img/listing/l-1.jpg" class="img-fluid" alt="" />
+															<img src="assets/theme/img/listing/l-1.jpg" class="img-fluid" alt="" />
 														</div>
 													</div>
 													<div class="vrt-list-content">
@@ -365,7 +365,7 @@
 												<div class="vrt-list-wrap-head">
 													<div class="vrt-list-thumb">
 														<div class="vrt-list-thumb-figure">
-															<img src="assets/img/listing/l-2.jpg" class="img-fluid" alt="" />
+															<img src="assets/theme/img/listing/l-2.jpg" class="img-fluid" alt="" />
 														</div>
 													</div>
 													<div class="vrt-list-content">
@@ -426,7 +426,7 @@
 												<div class="vrt-list-wrap-head">
 													<div class="vrt-list-thumb">
 														<div class="vrt-list-thumb-figure">
-															<img src="assets/img/listing/l-3.jpg" class="img-fluid" alt="" />
+															<img src="assets/theme/img/listing/l-3.jpg" class="img-fluid" alt="" />
 														</div>
 													</div>
 													<div class="vrt-list-content">
@@ -487,7 +487,7 @@
 												<div class="vrt-list-wrap-head">
 													<div class="vrt-list-thumb">
 														<div class="vrt-list-thumb-figure">
-															<img src="assets/img/listing/l-4.jpg" class="img-fluid" alt="" />
+															<img src="assets/theme/img/listing/l-4.jpg" class="img-fluid" alt="" />
 														</div>
 													</div>
 													<div class="vrt-list-content">
@@ -548,7 +548,7 @@
 												<div class="vrt-list-wrap-head">
 													<div class="vrt-list-thumb">
 														<div class="vrt-list-thumb-figure">
-															<img src="assets/img/listing/l-9.jpg" class="img-fluid" alt="" />
+															<img src="assets/theme/img/listing/l-9.jpg" class="img-fluid" alt="" />
 														</div>
 													</div>
 													<div class="vrt-list-content">
@@ -609,7 +609,7 @@
 												<div class="vrt-list-wrap-head">
 													<div class="vrt-list-thumb">
 														<div class="vrt-list-thumb-figure">
-															<img src="assets/img/listing/l-8.jpg" class="img-fluid" alt="" />
+															<img src="assets/theme/img/listing/l-8.jpg" class="img-fluid" alt="" />
 														</div>
 													</div>
 													<div class="vrt-list-content">
@@ -670,7 +670,7 @@
 												<div class="vrt-list-wrap-head">
 													<div class="vrt-list-thumb">
 														<div class="vrt-list-thumb-figure">
-															<img src="assets/img/listing/l-9.jpg" class="img-fluid" alt="" />
+															<img src="assets/theme/img/listing/l-9.jpg" class="img-fluid" alt="" />
 														</div>
 													</div>
 													<div class="vrt-list-content">
@@ -731,7 +731,7 @@
 												<div class="vrt-list-wrap-head">
 													<div class="vrt-list-thumb">
 														<div class="vrt-list-thumb-figure">
-															<img src="assets/img/listing/l-10.jpg" class="img-fluid" alt="" />
+															<img src="assets/theme/img/listing/l-10.jpg" class="img-fluid" alt="" />
 														</div>
 													</div>
 													<div class="vrt-list-content">
