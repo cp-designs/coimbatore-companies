@@ -1,8 +1,8 @@
-
+<?php include 'header.php';?>
 <!-- =============================== Dashboard Header ========================== -->
-<section class="bg-cover position-relative" style="background:red url(<?php echo base_url('assets/theme/img/cover.jpg'); ?>) no-repeat;"
+<section class="bg-cover position-relative" style="background:red url(assets/img/cover.jpg) no-repeat;"
 	data-overlay="3">
-	<div class="abs-list-sec"><a href="add-listing" class="add-list-btn"><i
+	<div class="abs-list-sec"><a href="dashboard-add-listing" class="add-list-btn"><i
 				class="fas fa-plus me-2"></i>Add Listing</a></div>
 	<div class="container">
 		<div class="row">
@@ -10,7 +10,7 @@
 
 				<div class="dashboard-head-author-clicl">
 					<div class="dashboard-head-author-thumb">
-						<img src="<?php echo base_url('assets/theme/img/t-7.png'); ?>" class="img-fluid" alt="" />
+						<img src="assets/img/t-7.png" class="img-fluid" alt="" />
 					</div>
 					<div class="dashboard-head-author-caption">
 						<div class="dashploio">
@@ -41,25 +41,22 @@
 			<div class="goodup-dashboard-inner">
 				<ul data-submenu-title="Main Navigation">
 					<li><a href="dashboard"><i class="lni lni-dashboard me-2"></i>Dashboard</a></li>
-					<li><a href="dashboard-my-listings"><i class="lni lni-files me-2"></i>My Listings</a>
-					</li>
+					<li><a href="my-listing"><i class="lni lni-files me-2"></i>My Listings</a></li>
 					<li class="active"><a href="add-listing"><i class="lni lni-add-files me-2"></i>Add
 							Listing</a></li>
-					<li><a href="dashboard-saved-listings"><i class="lni lni-bookmark me-2"></i>Saved
-							Listing</a></li>
-					<li><a href="dashboard-my-bookings"><i class="lni lni-briefcase me-2"></i>My
-							Bookings<span class="count-tag bg-warning">4</span></a></li>
+					<li><a href="dashboard-saved-listings"><i class="lni lni-bookmark me-2"></i>Saved Listing</a>
+					</li>
+					<li><a href="dashboard-my-bookings"><i class="lni lni-briefcase me-2"></i>My Bookings<span
+								class="count-tag bg-warning">4</span></a></li>
 					<li><a href="dashboard-wallet"><i class="lni lni-mastercard me-2"></i>Wallet</a></li>
 					<li><a href="dashboard-messages"><i class="lni lni-envelope me-2"></i>Messages<span
 								class="count-tag">4</span></a></li>
 				</ul>
 				<ul data-submenu-title="My Accounts">
-					<li><a href="dashboard-my-profile"><i class="lni lni-user me-2"></i>My Profile </a>
-					</li>
+					<li><a href="dashboard-my-profile"><i class="lni lni-user me-2"></i>My Profile </a></li>
 					<li><a href="dashboard-change-password"><i class="lni lni-lock-alt me-2"></i>Change
 							Password</a></li>
-					<li><a href="javascript:void(0);"><i class="lni lni-trash-can me-2"></i>Delete Account</a>
-					</li>
+					<li><a href="javascript:void(0);"><i class="lni lni-trash-can me-2"></i>Delete Account</a></li>
 					<li><a href="login"><i class="lni lni-power-switch me-2"></i>Log Out</a></li>
 				</ul>
 			</div>
@@ -142,8 +139,7 @@
 							<div class="dashboard-list-wraps-head br-bottom py-3 px-3">
 								<div class="dashboard-list-wraps-flx">
 									<h4 class="mb-0 ft-medium fs-md"><i
-											class="fas fa-map-marker-alt me-2 theme-cl fs-sm"></i>Location Info
-									</h4>
+											class="fas fa-map-marker-alt me-2 theme-cl fs-sm"></i>Location Info</h4>
 								</div>
 							</div>
 
@@ -240,8 +236,7 @@
 							<div class="dashboard-list-wraps-head br-bottom py-3 px-3">
 								<div class="dashboard-list-wraps-flx">
 									<h4 class="mb-0 ft-medium fs-md"><i
-											class="fa fa-camera me-2 theme-cl fs-sm"></i>Image & Gallery Option
-									</h4>
+											class="fa fa-camera me-2 theme-cl fs-sm"></i>Image & Gallery Option</h4>
 								</div>
 							</div>
 
@@ -326,8 +321,7 @@
 									<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
 										<div class="form-group">
 											<button type="button"
-												class="btn theme-cl rounded theme-bg-light ft-medium">Add
-												New</button>
+												class="btn theme-cl rounded theme-bg-light ft-medium">Add New</button>
 										</div>
 									</div>
 								</div>
@@ -808,8 +802,7 @@
 
 									<div class="form-group mt-4">
 										<input id="t24" class="checkbox-custom" name="24-1" type="checkbox">
-										<label for="t24" class="checkbox-custom-label">This Business open
-											7x24</label>
+										<label for="t24" class="checkbox-custom-label">This Business open 7x24</label>
 									</div>
 								</div>
 							</div>
@@ -820,8 +813,7 @@
 							<div class="dashboard-list-wraps-head br-bottom py-3 px-3">
 								<div class="dashboard-list-wraps-flx">
 									<h4 class="mb-0 ft-medium fs-md"><i
-											class="lni lni-coffee-cup me-2 theme-cl fs-sm"></i>Amenties Options
-									</h4>
+											class="lni lni-coffee-cup me-2 theme-cl fs-sm"></i>Amenties Options</h4>
 								</div>
 							</div>
 
@@ -832,8 +824,8 @@
 											<ul>
 												<li>
 													<input id="am1" class="checkbox-custom" name="am1" type="checkbox">
-													<label for="am1" class="checkbox-custom-label">Health Score
-														8.7 / 10</label>
+													<label for="am1" class="checkbox-custom-label">Health Score 8.7 /
+														10</label>
 												</li>
 												<li>
 													<input id="am2" class="checkbox-custom" name="am2" type="checkbox">
@@ -851,8 +843,7 @@
 												</li>
 												<li>
 													<input id="am5" class="checkbox-custom" name="am5" type="checkbox">
-													<label for="am5" class="checkbox-custom-label">Good For
-														Kids</label>
+													<label for="am5" class="checkbox-custom-label">Good For Kids</label>
 												</li>
 												<li>
 													<input id="am6" class="checkbox-custom" name="am6" type="checkbox">
@@ -861,18 +852,15 @@
 												</li>
 												<li>
 													<input id="am7" class="checkbox-custom" name="am7" type="checkbox">
-													<label for="am7" class="checkbox-custom-label">Beer &
-														Wine</label>
+													<label for="am7" class="checkbox-custom-label">Beer & Wine</label>
 												</li>
 												<li>
 													<input id="am8" class="checkbox-custom" name="am8" type="checkbox">
-													<label for="am8" class="checkbox-custom-label">TV
-														Services</label>
+													<label for="am8" class="checkbox-custom-label">TV Services</label>
 												</li>
 												<li>
 													<input id="am9" class="checkbox-custom" name="am9" type="checkbox">
-													<label for="am9" class="checkbox-custom-label">Pets
-														Allow</label>
+													<label for="am9" class="checkbox-custom-label">Pets Allow</label>
 												</li>
 												<li>
 													<input id="am10" class="checkbox-custom" name="am10"
@@ -889,8 +877,8 @@
 												<li>
 													<input id="am12" class="checkbox-custom" name="am12"
 														type="checkbox">
-													<label for="am12" class="checkbox-custom-label">Accepts
-														Credit Cards</label>
+													<label for="am12" class="checkbox-custom-label">Accepts Credit
+														Cards</label>
 												</li>
 												<li>
 													<input id="am13" class="checkbox-custom" name="am13"
@@ -947,14 +935,13 @@
 												<li>
 													<input id="am22" class="checkbox-custom" name="am22"
 														type="checkbox">
-													<label for="am22" class="checkbox-custom-label">Brunch,
-														Lunch, Dinner</label>
+													<label for="am22" class="checkbox-custom-label">Brunch, Lunch,
+														Dinner</label>
 												</li>
 												<li>
 													<input id="am23" class="checkbox-custom" name="am23"
 														type="checkbox">
-													<label for="am23" class="checkbox-custom-label">Free
-														Wi-Fi</label>
+													<label for="am23" class="checkbox-custom-label">Free Wi-Fi</label>
 												</li>
 												<li>
 													<input id="am24" class="checkbox-custom" name="am24"
@@ -965,8 +952,7 @@
 												<li>
 													<input id="am25" class="checkbox-custom" name="am25"
 														type="checkbox">
-													<label for="am25" class="checkbox-custom-label">Happy
-														Hour</label>
+													<label for="am25" class="checkbox-custom-label">Happy Hour</label>
 												</li>
 											</ul>
 										</div>
@@ -1019,8 +1005,7 @@
 									</div>
 									<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
 										<div class="form-group">
-											<button class="btn theme-bg rounded text-light">Submit &
-												Preview</button>
+											<button class="btn theme-bg rounded text-light">Submit & Preview</button>
 										</div>
 									</div>
 								</div>
@@ -1033,13 +1018,93 @@
 		</div>
 
 		<!-- footer -->
-		<!-- <div class="row">
+		<div class="row">
 			<div class="col-md-12">
 				<div class="py-3">© 2022 Goodup. Designd By ThemezHub.</div>
 			</div>
-		</div> -->
+		</div>
 
 	</div>
 
 </div>
 <!-- ======================= dashboard Detail End ======================== -->
+
+<a id="tops-button" class="top-scroll" title="Back to top" href="#"><i class="ti-arrow-up"></i></a>
+
+
+</div>
+<!-- ============================================================== -->
+<!-- End Wrapper -->
+<!-- ============================================================== -->
+
+<!-- ============================================================== -->
+<!-- All Jquery -->
+<!-- ============================================================== -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/popper.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/slick.js"></script>
+<script src="assets/js/jquery.magnific-popup.min.js"></script>
+<script src="assets/js/dropzone.js"></script>
+<script src="assets/js/counterup.js"></script>
+<script src="assets/js/lightbox.js"></script>
+<script src="assets/js/moment.min.js"></script>
+<script src="assets/js/daterangepicker.js"></script>
+<script src="assets/js/lightbox.js"></script>
+<script src="assets/js/jQuery.style.switcher.js"></script>
+<script src="assets/js/custom.js"></script>
+
+<!-- Date Booking Script -->
+<script src="assets/js/moment.min.js"></script>
+<script src="assets/js/daterangepicker.js"></script>
+<!-- ============================================================== -->
+<!-- This page plugins -->
+<!-- ============================================================== -->
+
+<script>
+	Dropzone.options.singleLogo = {
+		maxFiles: 1,
+		accept: function (file, done) {
+			console.log("uploaded");
+			done();
+		},
+		init: function () {
+			this.on("maxfilesexceeded", function (file) {
+				alert("No more files please!");
+			});
+		}
+	};
+</script>
+<script>
+	Dropzone.options.featuredImage = {
+		maxFiles: 1,
+		accept: function (file, done) {
+			console.log("uploaded");
+			done();
+		},
+		init: function () {
+			this.on("maxfilesexceeded", function (file) {
+				alert("No more files please!");
+			});
+		}
+	};
+</script>
+<script>
+	Dropzone.options.gallery = {
+		accept: function (file, done) {
+			console.log("uploaded");
+			done();
+		},
+		init: function () {
+			this.on("maxfilesexceeded", function (file) {
+				alert("No more files please!");
+			});
+		}
+	};
+</script>
+
+</body>
+
+<!-- Mirrored from shreethemes.net/goodup-live-2/goodup/add-listing by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 08 Jan 2025 04:37:44 GMT -->
+
+</html>

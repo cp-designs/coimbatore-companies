@@ -1,6 +1,6 @@
-<?php include 'header2.php';?>
+
 <!-- =============================== Dashboard Header ========================== -->
-<section class="bg-cover position-relative" style="background:red url(assets/img/cover.jpg) no-repeat;"
+<section class="bg-cover position-relative" style="background:red url(assets/theme/img/cover.jpg) no-repeat;"
 	data-overlay="3">
 	<div class="abs-list-sec"><a href="dashboard-add-listing" class="add-list-btn"><i
 				class="fas fa-plus me-2"></i>Add Listing</a></div>
@@ -10,7 +10,7 @@
 
 				<div class="dashboard-head-author-clicl">
 					<div class="dashboard-head-author-thumb">
-						<img src="assets/img/t-7.png" class="img-fluid" alt="" />
+						<img src="assets/theme/img/t-7.png" class="img-fluid" alt="" />
 					</div>
 					<div class="dashboard-head-author-caption">
 						<div class="dashploio">
@@ -41,9 +41,9 @@
 			<div class="goodup-dashboard-inner">
 				<ul data-submenu-title="Main Navigation">
 					<li><a href="dashboard"><i class="lni lni-dashboard me-2"></i>Dashboard</a></li>
-					<li class="active"><a href="dashboard-my-listings"><i class="lni lni-files me-2"></i>My
+					<li class="active"><a href="my-listings"><i class="lni lni-files me-2"></i>My
 							Listings</a></li>
-					<li><a href="dashboard-add-listings"><i class="lni lni-add-files me-2"></i>Add
+					<li><a href="add-listing"><i class="lni lni-add-files me-2"></i>Add
 							Listing</a></li>
 					<li><a href="dashboard-saved-listings"><i class="lni lni-bookmark me-2"></i>Saved
 							Listing</a></li>
@@ -98,7 +98,7 @@
 
 								<!-- Single Listing Item -->
 								<div class="dsd-single-listing-wraps">
-									<div class="dsd-single-lst-thumb"><img src="assets/img/listing/l-1.jpg"
+									<div class="dsd-single-lst-thumb"><img src="assets/theme/img/listing/l-1.jpg"
 											class="img-fluid" alt="" /></div>
 									<div class="dsd-single-lst-caption">
 										<div class="dsd-single-lst-title">
@@ -135,7 +135,7 @@
 
 								<!-- Single Listing Item -->
 								<div class="dsd-single-listing-wraps">
-									<div class="dsd-single-lst-thumb"><img src="assets/img/listing/l-2.jpg"
+									<div class="dsd-single-lst-thumb"><img src="assets/theme/img/listing/l-2.jpg"
 											class="img-fluid" alt="" /></div>
 									<div class="dsd-single-lst-caption">
 										<div class="dsd-single-lst-title">
@@ -172,7 +172,7 @@
 
 								<!-- Single Listing Item -->
 								<div class="dsd-single-listing-wraps">
-									<div class="dsd-single-lst-thumb"><img src="assets/img/listing/l-3.jpg"
+									<div class="dsd-single-lst-thumb"><img src="assets/theme/img/listing/l-3.jpg"
 											class="img-fluid" alt="" /></div>
 									<div class="dsd-single-lst-caption">
 										<div class="dsd-single-lst-title">
@@ -209,7 +209,7 @@
 
 								<!-- Single Listing Item -->
 								<div class="dsd-single-listing-wraps">
-									<div class="dsd-single-lst-thumb"><img src="assets/img/listing/l-4.jpg"
+									<div class="dsd-single-lst-thumb"><img src="assets/theme/img/listing/l-4.jpg"
 											class="img-fluid" alt="" /></div>
 									<div class="dsd-single-lst-caption">
 										<div class="dsd-single-lst-title">
@@ -246,7 +246,7 @@
 
 								<!-- Single Listing Item -->
 								<div class="dsd-single-listing-wraps">
-									<div class="dsd-single-lst-thumb"><img src="assets/img/listing/l-5.jpg"
+									<div class="dsd-single-lst-thumb"><img src="assets/theme/img/listing/l-5.jpg"
 											class="img-fluid" alt="" /></div>
 									<div class="dsd-single-lst-caption">
 										<div class="dsd-single-lst-title">
@@ -283,7 +283,7 @@
 
 								<!-- Single Listing Item -->
 								<div class="dsd-single-listing-wraps">
-									<div class="dsd-single-lst-thumb"><img src="assets/img/listing/l-6.jpg"
+									<div class="dsd-single-lst-thumb"><img src="assets/theme/img/listing/l-6.jpg"
 											class="img-fluid" alt="" /></div>
 									<div class="dsd-single-lst-caption">
 										<div class="dsd-single-lst-title">
@@ -320,7 +320,7 @@
 
 								<!-- Single Listing Item -->
 								<div class="dsd-single-listing-wraps">
-									<div class="dsd-single-lst-thumb"><img src="assets/img/listing/l-8.jpg"
+									<div class="dsd-single-lst-thumb"><img src="assets/theme/img/listing/l-8.jpg"
 											class="img-fluid" alt="" /></div>
 									<div class="dsd-single-lst-caption">
 										<div class="dsd-single-lst-title">
@@ -364,47 +364,14 @@
 		</div>
 
 		<!-- footer -->
-		<div class="row">
+		<!-- <div class="row">
 			<div class="col-md-12">
 				<div class="py-3">© 2022 Goodup. Designd By <a href="https://www.creativepoint.in/"
 						target="_blank">Cretive Point</a>.</div>
 			</div>
-		</div>
+		</div> -->
 
 	</div>
 
 </div>
 <!-- ======================= dashboard Detail End ======================== -->
-
-<a id="tops-button" class="top-scroll" title="Back to top" href="#"><i class="ti-arrow-up"></i></a>
-
-
-</div>
-<!-- ============================================================== -->
-<!-- End Wrapper -->
-<!-- ============================================================== -->
-
-<!-- ============================================================== -->
-<!-- All Jquery -->
-<!-- ============================================================== -->
-<script src="assets/js/jquery.min.js"></script>
-<script src="assets/js/popper.min.js"></script>
-<script src="assets/js/bootstrap.min.js"></script>
-<script src="assets/js/slick.js"></script>
-<script src="assets/js/jquery.magnific-popup.min.js"></script>
-<script src="assets/js/dropzone.js"></script>
-<script src="assets/js/counterup.js"></script>
-<script src="assets/js/lightbox.js"></script>
-<script src="assets/js/moment.min.js"></script>
-<script src="assets/js/daterangepicker.js"></script>
-<script src="assets/js/lightbox.js"></script>
-<script src="assets/js/jQuery.style.switcher.js"></script>
-<script src="assets/js/custom.js"></script>
-<!-- ============================================================== -->
-<!-- This page plugins -->
-<!-- ============================================================== -->
-
-</body>
-
-
-</html>

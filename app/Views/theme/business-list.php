@@ -27,14 +27,14 @@
 									<div class="btn-group">
 										<button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Home Services</button>
 										<ul class="dropdown-menu">
-											<li><a class="dropdown-item" href="#"><img src="assets/theme/img/icons/hammer.png" class="img-fluid" width="20" alt="" />Contractors</a></li>
-											<li><a class="dropdown-item" href="#"><img src="assets/theme/img/icons/coconut-tree.png" class="img-fluid" width="20" alt="" />Landscaping</a></li>
-											<li><a class="dropdown-item" href="#"><img src="assets/theme/img/icons/broken-cable.png" class="img-fluid" width="20" alt="" />Electricians</a></li>
-											<li><a class="dropdown-item" href="#"><img src="assets/theme/img/icons/padlock.png" class="img-fluid" width="20" alt="" />Locksmiths</a></li>
-											<li><a class="dropdown-item" href="#"><img src="assets/theme/img/icons/basket.png" class="img-fluid" width="20" alt="" />Home Cleaning</a></li>
-											<li><a class="dropdown-item" href="#"><img src="assets/theme/img/icons/delivery-truck.png" class="img-fluid" width="20" alt="" />Movers</a></li>
-											<li><a class="dropdown-item" href="#"><img src="assets/theme/img/icons/home.png" class="img-fluid" width="20" alt="" />HVAC</a></li>
-											<li><a class="dropdown-item" href="#"><img src="assets/theme/img/icons/plumbering.png" class="img-fluid" width="20" alt="" />Plumbers</a></li>
+											<li><a class="dropdown-item" href="#"><img src="<?php echo base_url('assets/theme/img/icons/hammer.png'); ?>" class="img-fluid" width="20" alt="" />Contractors</a></li>
+											<li><a class="dropdown-item" href="#"><img src="<?php echo base_url('assets/theme/img/icons/coconut-tree.png'); ?>" class="img-fluid" width="20" alt="" />Landscaping</a></li>
+											<li><a class="dropdown-item" href="#"><img src="<?php echo base_url('assets/theme/img/icons/broken-cable.png'); ?>" class="img-fluid" width="20" alt="" />Electricians</a></li>
+											<li><a class="dropdown-item" href="#"><img src="<?php echo base_url('assets/theme/img/icons/padlock.png'); ?>" class="img-fluid" width="20" alt="" />Locksmiths</a></li>
+											<li><a class="dropdown-item" href="#"><img src="<?php echo base_url('assets/theme/img/icons/basket.png'); ?>" class="img-fluid" width="20" alt="" />Home Cleaning</a></li>
+											<li><a class="dropdown-item" href="#"><img src="<?php echo base_url('assets/theme/img/icons/delivery-truck.png'); ?>" class="img-fluid" width="20" alt="" />Movers</a></li>
+											<li><a class="dropdown-item" href="#"><img src="<?php echo base_url('assets/theme/img/icons/home.png'); ?>" class="img-fluid" width="20" alt="" />HVAC</a></li>
+											<li><a class="dropdown-item" href="#"><img src="<?php echo base_url('assets/theme/img/icons/plumbering.png'); ?>" class="img-fluid" width="20" alt="" />Plumbers</a></li>
 										</ul>
 									</div>
 								</div>
