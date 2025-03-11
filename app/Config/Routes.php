@@ -11,7 +11,7 @@ $routes->get('/', 'Theme\Home::index');
 $routes->get('about-us', 'Theme\Home::aboutus');
 $routes->get('add-listing', 'Theme\Home::add_listing');
 $routes->get('business-list', 'Theme\Home::business_list');
-$routes->get('dashboard', 'Theme\Home::dash_board');
+$routes->get('dashboard', 'Theme\Home::dashboard');
 $routes->get('my-listings', 'Theme\Home::my_listings');
 
 //$routes->get('test', 'Test::index');

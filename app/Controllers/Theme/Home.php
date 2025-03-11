@@ -88,7 +88,7 @@ class Home extends BaseController
           // Load the header, dashboard, and footer views with data
         return view('theme/header',$data).view('theme/business-list', $data).view('theme/footer', $data);
     }
-    public function dash_board()    {
+    public function dashboard()    {
         // Data to pass to the views
         $data = [
             'title' => 'Dashboard Add Listing :: Business Directory',           
